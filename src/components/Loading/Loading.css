@@ -1,0 +1,40 @@
+.loading-container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  min-height: 60vh;
+
+  gap: 20px;
+
+}
+ 
+.loading-spinner .airplane {
+
+  font-size: 4rem;
+
+  animation: fly 2s ease-in-out infinite;
+
+}
+ 
+@keyframes fly {
+
+  0%, 100% {
+
+    transform: translateX(-20px) translateY(0);
+
+  }
+
+  50% {
+
+    transform: translateX(20px) translateY(-10px);
+
+  }
+
+}
+ 
